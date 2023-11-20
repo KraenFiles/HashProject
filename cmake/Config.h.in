@@ -1,0 +1,10 @@
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+
+#include <cstdint>
+
+#define TESTS @TEST_MODE@
+
+const uint16_t TABLE_SIZE = @TABLE_SIZE@;
+
+#endif
